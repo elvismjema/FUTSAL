@@ -1,0 +1,10 @@
+SHOUT "Enter a word:"
+ASK word
+
+CONTROL backwards = ARSENAL(word)
+
+CHECKIN word == backwards
+    SHOUT "This is a palindrome"
+SUB
+    SHOUT "This is not a palindrome"
+FULLTIME

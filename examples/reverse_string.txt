@@ -1,0 +1,7 @@
+SHOUT "Enter a word:"
+ASK word
+
+CONTROL backwards = ARSENAL(word)
+
+SHOUT "Reversed word:"
+SHOUT backwards

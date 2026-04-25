@@ -1,0 +1,11 @@
+SHOUT "Enter a number:"
+ASK userNumber
+
+CONTROL number = INT(userNumber)
+CONTROL remainder = number % 2
+
+CHECKIN remainder == 0
+    SHOUT "This number is even"
+SUB
+    SHOUT "This number is odd"
+FULLTIME
