@@ -1,4 +1,4 @@
-# FUTSAL Programming Language
+# FUTSAL 
 
 FUTSAL is a simple interpreted programming language inspired by soccer/futsal terms.
 It is designed to be easy to understand while still supporting key programming features.
