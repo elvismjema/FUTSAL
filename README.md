@@ -1,26 +1,66 @@
-# FUTSAL
+# FUTSAL Programming Language
 
-FUTSAL is a small interpreted programming language inspired by soccer/futsal terms.
+FUTSAL is a simple interpreted programming language inspired by soccer/futsal terms.
+It is designed to be easy to understand while still supporting key programming features.
 
-## How to run
+---
 
+## How to Run
+
+```bash
 python futsal.py examples/helloworld.txt
+```
+
+---
+
+## Features
+
+* Variables
+* Input / Output
+* Arithmetic operations
+* Conditionals (if / else)
+* Loops
+* Functions
+* String operations
+
+---
 
 ## Keywords
 
-SHOUT      prints output
-ASK        gets user input
-CONTROL    stores a variable
-CHECKIN    starts an if statement
-SUB        else statement
-REPEAT     while loop
-PLAY       function
-RUN        calls a function
-FULLTIME   ends a block
+| FUTSAL Command | Meaning          |
+| -------------- | ---------------- |
+| SHOUT          | Print output     |
+| ASK            | Get user input   |
+| CONTROL        | Store a variable |
+| CHECKIN        | If condition     |
+| SUB            | Else condition   |
+| REPEAT         | While loop       |
+| PLAY           | Define function  |
+| RUN            | Call function    |
+| FULLTIME       | End block        |
 
-## Example
+---
 
-SHOUT "Hello World"
+## Built-in Functions
 
-CONTROL score = 5
-SHOUT score
+| Function      | Description         |
+| ------------- | ------------------- |
+| ARSENAL(text) | Reverses a string   |
+| INT(value)    | Converts to integer |
+| LENGTH(text)  | Gets string length  |
+
+---
+
+## About
+
+This project demonstrates how an interpreted language works by:
+
+* Reading a file line by line
+* Parsing commands
+* Executing instructions dynamically
+
+---
+
+## Author
+
+Elvis Mjema
