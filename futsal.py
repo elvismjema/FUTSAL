@@ -45,7 +45,6 @@ def execute_lines(lines, variables, functions=functions):
         if command == "SHOUT":
             value = " ".join(parts[1:])
 
-            # if it's a variable
             if value in variables:
                 print(variables[value])
             else:

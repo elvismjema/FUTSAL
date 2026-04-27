@@ -25,19 +25,35 @@ python futsal.py examples/helloworld.txt
 
 ---
 
+## Operators
+
+* `+` Add
+* `-` Subtract
+* `*` Multiply
+* `/` Divide
+* `%` Modulo
+* `==` Equal to
+* `!=` Not equal to
+* `>` Greater than
+* `<` Less than
+* `>=` Greater than or equal to
+* `<=` Less than or equal to
+
+---
+
 ## Keywords
 
 | FUTSAL Command | Meaning          |
 | -------------- | ---------------- |
-| SHOUT          | Print output     |
-| ASK            | Get user input   |
-| CONTROL        | Store a variable |
-| CHECKIN        | If condition     |
-| SUB            | Else condition   |
-| REPEAT         | While loop       |
-| PLAY           | Define function  |
-| RUN            | Call function    |
-| FULLTIME       | End block        |
+| `SHOUT`          | Print output     |
+| `ASK`          | Get user input   |
+| `CONTROL`      | Store a variable |
+| `CHECKIN`      | If condition     |
+| `SUB`          | Else condition   |
+| `REPEAT`       | While loop       |
+| `PLAY`         | Define function  |
+| `RUN`          | Call function    |
+| `FULLTIME`     | End block        |
 
 ---
 
@@ -45,9 +61,9 @@ python futsal.py examples/helloworld.txt
 
 | Function      | Description         |
 | ------------- | ------------------- |
-| ARSENAL(text) | Reverses a string   |
-| INT(value)    | Converts to integer |
-| LENGTH(text)  | Gets string length  |
+| `ARSENAL(text)` | Reverses a string   |
+| `INT(value)`    | Converts to integer |
+| `LENGTH(text)`  | Gets string length  |
 
 ---
 
