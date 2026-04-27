@@ -1,0 +1,6 @@
+SHOUT "Enter a character:"
+ASK char
+SHOUT "Enter number of times:"
+ASK times
+CONTROL result = char * INT(times)
+SHOUT result

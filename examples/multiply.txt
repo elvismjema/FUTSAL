@@ -1,0 +1,6 @@
+SHOUT "Enter first number:"
+ASK a
+SHOUT "Enter second number:"
+ASK b
+CONTROL result = INT(a) * INT(b)
+SHOUT result

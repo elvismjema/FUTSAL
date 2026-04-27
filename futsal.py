@@ -1,3 +1,6 @@
+import sys
+
+
 # store variables
 variables = {}
 functions = {}
@@ -123,9 +126,13 @@ def execute_lines(lines, variables, functions=functions):
         elif command == "FULLTIME":
             pass
 
+if len(sys.argv) < 2:
+    print("Usage: python3 futsal.py <file>")
+    exit()
 
-# open program file
-with open("program.txt", "r") as file:
+filename = sys.argv[1]
+
+with open(filename, "r") as file:
     lines = file.readlines()
 
 execute_lines(lines, variables)
